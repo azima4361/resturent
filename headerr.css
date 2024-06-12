@@ -1,0 +1,48 @@
+.nav{
+    display: flex;
+    gap: 280px;
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+.second{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  
+}
+#right-menu-id{
+    width: 20px;
+}
+.hero_section{
+    display: flex;
+    gap: 150px;
+}
+.left_hero_section{
+    padding: 10px;
+}
+.bike img{
+    width: 200px;
+    padding: 10px;
+}
+.title h1{
+    font-family: Montserrat;
+font-size: 56px;
+font-weight: 500;
+
+text-align: left;
+
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+.order_play{
+    display: flex;
+    gap: 20px;
+}
+  
+.order img{
+    width: 175px;
+}
+.right_hero_section img{
+    width: 500px;
+}

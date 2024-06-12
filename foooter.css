@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    gap: 100px;
+    padding: 40px;
+    margin-top: 40px;
+    background-color:  #FAFAFF;
+    ;
+}
+.footer_desc{
+    flex-direction: row;
+}
+.soc-icon{
+    gap: 80px;
+}
