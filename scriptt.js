@@ -1,5 +1,11 @@
 const imageArray= [
     {
+        url : "./images/Mask group (1).png" ,
+    },
+    {
+        url : "./images/Mask group (2).png" ,
+    },
+    {
         url : "./images/Mask group (3).png" ,
     },
     {
