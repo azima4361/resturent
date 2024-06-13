@@ -1,3 +1,33 @@
+function handleContact(event){
+    event.preventDefault();
+ 
+  
+  const email=event.target.email.value;
+ 
+
+ 
+  console.log(email);
+  const successContainer= document.getElementById("success_container");
+  //console.log(document);
+  console.log(successContainer);
+
+  
+  const emailParagraph=document.createElement("p");
+emailParagraph.innerText=`Your Email : ${email}`;
+ 
+const message=document.getElementById("success_container");
+message.innerText=`Subscription successful!`;
+
+console.log(emailParagraph);
+console.log(message);
+
+successContainer.appendChild(emailParagraph);
+successContainer.appendChild(message);
+
+
+
+
+}
 const imageArray= [
     {
         url : "./images/Mask group (1).png" ,
